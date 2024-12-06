@@ -35,5 +35,6 @@ const addTrain = (train) => {
         <div class="destination">${train.to}</div>
     </article>
     `;
-  document.querySelector("#board").insertAdjacentHTML("beforeend", html);
-};
+    document.querySelector("#board").insertAdjacentHTML("beforeend", html);
+  };
+
